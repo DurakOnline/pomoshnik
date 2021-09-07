@@ -29,18 +29,18 @@ $('#moijarty').live('click', function () {
 function newgame() {
     var mast = ['pik', 'che', 'kre', 'bub']
 
-    var html_content = '';
+    var html_content = '<div id="stol">';
 
     for (var i = 0; i < 4; i++) {
         html_content += '<div class="mast">';
         for (var j = 6; j < 15; j++) {
             html_content += '<div id="' + mast[i] + j + '" class="unknown"></div>';
         }
-        html_content += '</div>';
+        html_content += '</div></div>';
     }
-    html_content += '<div id="sopernik" class="myButton" style="clear: both;"><span>Соперник</span></div><div id="moijarty" class="myButton" style="clear: both;"><span>Взял</span></div><div id="otboy" class="myButton"><span>Отбой</span></div><div id="newgame" class="myButton"><span>Новая игра</span></div>';
+    html_content += '<div class="btnblock"><span id="sopernik" class="myButton" style="clear: both;">СОПЕРНИК</span><span id="moijarty" class="myButton" style="clear: both;">ВЗЯЛ</span><span id="otboy" class="myButton">ОТБОЙ</span><span id="newgame" class="myButton">НОВАЯ ИГРА</span></div>';
 
-    $('#stol').empty().append(html_content).css({ 'margin-top': '30px' });
+    $('body').empty().append(html_content);
 
     $('.mast').css({ 'clear': 'both' });
     $('.mast div').css({ 'width': '60px', 'height': '90px', 'margin': '3px', 'float': 'left', 'background-image': 'url(./img/karty-j2.jpg)' });

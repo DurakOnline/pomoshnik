@@ -1,11 +1,17 @@
-.allbtn {
-    margin-top: 15px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: 25%;
+    margin-top: 30px;
 }
 
 .myButton {
     box-shadow: 0px 5px 14px -7px #276873;
-    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
-    background-color: #44c767;
+    background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color:#77d42a;
     border-radius: 10px;
     display: inline-block;
     cursor: pointer;
@@ -14,13 +20,14 @@
     font-size: 16px;
     font-weight: bold;
     padding: 16px 29px;
+    margin: 10px 0 0 10px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #3d768a;
 }
 
 .myButton:hover {
-    background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
-    background-color: #5cbf2a;
+    background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
 }
 
 .myButton:active {
@@ -29,11 +36,38 @@
 }
 
 #sopernik {
-    background: linear-gradient(to bottom, #e83c3c 5%, #eb6c6c 100%);
-    background-color: #e83c3c;
+    background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+}
+
+#sopernik:hover {
+    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
 }
 
 #moijarty {
-    background: linear-gradient(to bottom, #633ce6 5%, #6c72eb 100%);
-    background-color: #633ce6;
+    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+}
+
+#moijarty:hover {
+    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+
+#stol {
+    min-width: 620px;
+}
+
+.mast {
+    min-width: 620px;
+}
+
+.mast div {
+    cursor: pointer;
+}
+
+.btnblock {
+    clear: both;
+    min-width: 575px;
 }
