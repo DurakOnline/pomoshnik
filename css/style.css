@@ -3,21 +3,20 @@
     padding: 0;
 }
 
-body{
-    margin-left: 10%;
-    margin-top: 30px;
+body {
+    margin-top: 10px;
 }
 
-#cardsnumber{
-    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
-	background-color:#768d87;
+#cardsnumber {
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
     margin-left: 0;
 }
 
 .myButton {
     box-shadow: 0px 5px 14px -7px #276873;
-    background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
-	background-color:#77d42a;
+    background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+    background-color: #77d42a;
     border-radius: 10px;
     display: inline-block;
     cursor: pointer;
@@ -32,8 +31,8 @@ body{
 }
 
 .myButton:hover {
-    background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
-	background-color:#5cb811;
+    background: linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+    background-color: #5cb811;
 }
 
 .myButton:active {
@@ -42,38 +41,25 @@ body{
 }
 
 #sopernik {
-    background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
-	background-color:#d0451b;
+    background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+    background-color: #d0451b;
 }
 
 #sopernik:hover {
-    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
-	background-color:#bc3315;
+    background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    background-color: #bc3315;
 }
 
 #moijarty {
-    background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-	background-color:#007dc1;
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color: #007dc1;
 }
 
 #moijarty:hover {
-    background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-	background-color:#0061a7;
-}
-
-#stol {
-    min-width: 620px;
-}
-
-.mast {
-    min-width: 620px;
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color: #0061a7;
 }
 
 .mast div {
     cursor: pointer;
-}
-
-.btnblock {
-    clear: both;
-    min-width: 575px;
 }

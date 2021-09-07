@@ -54,16 +54,16 @@ $('#moijarty').live('click', function () {
 function newgame() {
     var mast = ['pik', 'che', 'kre', 'bub']
 
-    var html_content = '<div><a href="index.html" id="cardsnumber" class="myButton">36 КАРТ</a></div><div id="stol">';
+    var html_content = '<div style="text-align: center;"><a href="index.html" id="cardsnumber" class="myButton">36 КАРТ</a></div><div style="display: flex;justify-content: center;"><div id="stol" style="min-width: 420px;max-width: 400px;">';
 
     for (var i = 0; i < 4; i++) {
         html_content += '<div class="mast">';
         for (var j = 9; j < 15; j++) {
             html_content += '<div id="' + mast[i] + j + '" class="unknown"></div>';
         }
-        html_content += '</div></div>';
+        html_content += '</div>';
     }
-    html_content += '<div class="btnblock"><span id="sopernik" class="myButton" style="clear: both;">СОПЕРНИК</span><span id="moijarty" class="myButton" style="clear: both;">ВЗЯЛ</span><span id="otboy" class="myButton">ОТБОЙ</span><span id="newgame" class="myButton">НОВАЯ ИГРА</span></div>';
+    html_content += '</div></div><div class="btnblock" style="text-align: center;clear: both;min-width: 470px;"><span id="sopernik" class="myButton" style="clear: both;">СОПЕРНИК</span><span id="moijarty" class="myButton" style="clear: both;">ВЗЯЛ</span><span id="otboy" class="myButton">ОТБОЙ</span></div><div style="text-align: center;"><span id="newgame" class="myButton">НОВАЯ ИГРА</span></div>';
 
     $('body').empty().append(html_content);
 
