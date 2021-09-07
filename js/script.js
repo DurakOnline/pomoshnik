@@ -29,7 +29,7 @@ $('#moijarty').live('click', function () {
 function newgame() {
     var mast = ['pik', 'che', 'kre', 'bub']
 
-    var html_content = '<div><a href="/index24.html" id="cardsnumber" class="myButton">24 КАРТ</a></div><div id="stol">';
+    var html_content = '<div><a href="card24.html" id="cardsnumber" class="myButton">24 КАРТ</a></div><div id="stol">';
 
     for (var i = 0; i < 4; i++) {
         html_content += '<div class="mast">';
