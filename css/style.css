@@ -4,8 +4,14 @@
 }
 
 body{
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 30px;
+}
+
+#cardsnumber{
+    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+    margin-left: 0;
 }
 
 .myButton {
